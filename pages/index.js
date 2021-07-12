@@ -37,12 +37,24 @@ export default function Home() {
                 alt="account-img"
             ></img>              
             </div>
-            <p>Blank</p>
+            <p className="ml-2 mt-2 font-semibold text-sm text-gray-700">Blank</p>
           </div>
 
 
         </div>
       </section>
+
+      <section className="bg-white px-10 md:px-0">
+        <div className="max-w-3xl mx-auto py-6 text-sm text-gray-700">
+          <div className="flex items-center justify-between pb-5">
+            <h2 className="font-medium flex-grow">myDocuments</h2>
+            <p className="mr-12">Date Created</p>
+            <Icon name="folder" size="3xl" color="gray"></Icon>
+          </div>
+          
+        </div>
+      </section>
+
     </div>
   );
 }
